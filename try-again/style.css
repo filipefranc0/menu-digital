@@ -1,0 +1,55 @@
+body, a, ul, li {
+    background-color: rgb(254, 251, 251);
+    text-decoration: none;
+    list-style: none;
+    color: rgb(6, 5, 5);
+     
+}
+
+h1 {
+    margin: 0 auto;
+    font-size: 1em;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px rgba(3, 0, 0, 0.217);
+}
+#img, div, img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 2px;
+    
+   
+}
+
+div {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.288);
+}
+img {
+    width: 53.5%;
+
+}
+
+nav {
+    margin: 0 auto;
+}
+#menuI, a, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    
+}
+nav a {
+    
+    padding: 0 40px 0 40px;
+   
+}
+@media only screen and (max-width:415px ) {
+    img {
+       width : 100%; 
+       
+    }
+   
+    
+}

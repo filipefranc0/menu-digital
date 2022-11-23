@@ -1,0 +1,101 @@
+body, a, ul, li {
+    background-color: #a1816231 ;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(6, 5, 5);
+    
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(5, 5, 5, 0.625);
+    background: -webkit-linear-gradient(top, #a18262 20%, #a18162e4 80%);
+    margin: 3px;
+    
+    
+    
+}
+
+
+nav {
+    margin: 0 auto;
+    
+}
+
+#menuI, a, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: inherit;
+    
+    
+   
+}
+nav a {
+
+    padding: 0 40px 0 40px;   
+}
+
+
+#box {
+    display: grid; 
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: 140px 140px 140px repeat();
+    font-family: normal Arial, Helvetica, sans-serif;
+    margin-left: 4px;
+    margin-bottom: 100px;
+   
+}
+
+#box > div {
+    width: 130px;
+    min-height: 130px;
+    
+    
+
+}
+
+
+#logo, a{
+   max-width: 10vw;
+   padding: 0 auto;
+   margin: 0 auto;
+   line-height: 50px;  
+   font-size: 1.5em; 
+   justify-content: center;
+   
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+#barra {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+
+
+#iten {
+    display: flex;
+    align-items: center;
+    text-align: start, left;
+    
+    
+   
+}
+
+#iten:hover {
+    box-shadow: 10px 10px 10px 10px #ff910287;
+    
+}
